@@ -1,7 +1,5 @@
 ## How to run the program? 
 
-
-
 ### Bayes.m
 
 - the program is for multiclass-classification. 
@@ -137,3 +135,24 @@ WEAK_LEARNER_NUMBER = 5;
 ```
 
 - You can change the **WEAK_LEARNER_NUMBER** to see how many weak-learner it needs to have a good performance. 
+
+
+
+### multiclassifier_fitcecoc.m
+
+- the program is for multiclass-classification with the Matlab built-in function **fitcecoc()**.
+
+- one-vs-one is applied in the built-in function.
+
+- no change for the variables, just run the program and see the result. 
+
+- the training time takes 2 min in my laptop. 
+
+
+### kernel_svm.m
+
+- the program is for multiclass-classification
+
+- one-vs-all is implemented, we can compare the result with one-vs-one.
+
+- to play with the data, refer to the description in **Bayes.m**.
